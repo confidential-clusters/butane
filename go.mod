@@ -26,3 +26,5 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
+
+replace github.com/coreos/ignition/v2 => github.com/confidential-clusters/ignition/v2 v2.0.0-20251023070011-e84a9088e2ab
