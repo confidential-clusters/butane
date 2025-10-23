@@ -34,6 +34,7 @@ type ClevisCustom struct {
 type Config struct {
 	Version         string          `yaml:"version"`
 	Variant         string          `yaml:"variant"`
+	Attestation     Attestation     `yaml:"attestation"`
 	Ignition        Ignition        `yaml:"ignition"`
 	KernelArguments KernelArguments `yaml:"kernel_arguments"`
 	Passwd          Passwd          `yaml:"passwd"`
@@ -264,4 +265,17 @@ type Unit struct {
 
 type Verification struct {
 	Hash *string `yaml:"hash"`
+}
+
+type Attestation struct {
+	AttestationKey AttestationKey `yaml:"attestation_key"`
+}
+
+type AttestationKey struct {
+	Registration Registration `yaml:"registration"`
+}
+
+type Registration struct {
+	Url         *string `yaml:"url"`
+	Certificate *string `yaml:"certificate"`
 }

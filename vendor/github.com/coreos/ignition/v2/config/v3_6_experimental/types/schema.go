@@ -269,7 +269,7 @@ type Attestation struct {
 }
 
 type AttestationKey struct {
-	Registration `json:"registration,omitempty"`
+	Registration Registration `json:"registration,omitempty"`
 }
 
 type Registration struct {
