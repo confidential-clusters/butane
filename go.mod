@@ -17,7 +17,7 @@ require (
 )
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.39.2 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.40.1 // indirect
 	github.com/coreos/go-json v0.0.0-20230131223807-18775e0fb4fb // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/kr/pretty v0.3.1 // indirect
@@ -27,4 +27,4 @@ require (
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
 
-replace github.com/coreos/ignition/v2 => github.com/confidential-clusters/ignition/v2 v2.0.0-20251027100136-c16b4257b509
+replace github.com/coreos/ignition/v2 => github.com/trusted-execution-clusters/ignition/v2 v2.0.0-20260112100441-85608d602bcc

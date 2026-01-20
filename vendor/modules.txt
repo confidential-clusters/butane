@@ -1,5 +1,5 @@
-# github.com/aws/aws-sdk-go-v2 v1.39.2
-## explicit; go 1.22
+# github.com/aws/aws-sdk-go-v2 v1.40.1
+## explicit; go 1.23
 github.com/aws/aws-sdk-go-v2/aws/arn
 # github.com/clarketm/json v1.17.1
 ## explicit
@@ -13,7 +13,7 @@ github.com/coreos/go-semver/semver
 # github.com/coreos/go-systemd/v22 v22.6.0
 ## explicit; go 1.23
 github.com/coreos/go-systemd/v22/unit
-# github.com/coreos/ignition/v2 v2.21.0 => github.com/confidential-clusters/ignition/v2 v2.0.0-20251027100136-c16b4257b509
+# github.com/coreos/ignition/v2 v2.21.0 => github.com/trusted-execution-clusters/ignition/v2 v2.0.0-20260112100441-85608d602bcc
 ## explicit; go 1.24.0
 github.com/coreos/ignition/v2/config/doc
 github.com/coreos/ignition/v2/config/merge
@@ -66,4 +66,4 @@ github.com/vincent-petithory/dataurl
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
-# github.com/coreos/ignition/v2 => github.com/confidential-clusters/ignition/v2 v2.0.0-20251027100136-c16b4257b509
+# github.com/coreos/ignition/v2 => github.com/trusted-execution-clusters/ignition/v2 v2.0.0-20260112100441-85608d602bcc
