@@ -27,4 +27,4 @@ require (
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
 
-replace github.com/coreos/ignition/v2 => github.com/confidential-clusters/ignition/v2 v2.0.0-20251027100136-c16b4257b509
+replace github.com/coreos/ignition/v2 => github.com/trusted-execution-clusters/ignition/v2 v2.0.0-20260112100441-85608d602bcc
